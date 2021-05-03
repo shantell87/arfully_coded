@@ -1,0 +1,46 @@
+nav li {
+    writing-mode: vertical-rl;
+    transform: rotate( -180deg );
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400 ;
+    font-size: 12px;
+    align-self: center;
+    letter-spacing: 3px;
+    padding: 25px 16px 6px 13px;
+    word-break: keep-all !important;
+}
+
+.sidenav {
+    height: 100%;
+    width: 65px;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    overflow-x: hidden;
+    padding-top: 30px;
+}
+.sidenav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #003f5a;
+    display: block;
+}
+.sidenav a:hover {
+    color: #da8751;
+}
+
+.sidenav:hover {
+    background-color:#E4D5CF;
+}
+
+.logo_icon{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+    margin-left: 4px;
+}
+
