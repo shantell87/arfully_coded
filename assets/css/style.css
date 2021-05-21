@@ -2,8 +2,10 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
+  font-family: 'Montserrat', sans-serif;
   color: #444444;
+  background-color: #F2F2F2;
 }
 
 a {
@@ -540,12 +542,12 @@ section {
 /*--------------------------------------------------------------
 # About/TEAM
 --------------------------------------------------------------*/
-.about {
+/* .about {
   background: url("../img/paper.png") center center no-repeat;
   background-size: cover;
   padding: 40px 10px;
   position: relative;
-}
+} */
 
 .about .member {
   text-align: center;
@@ -688,7 +690,7 @@ section {
 }
 
 .services .title a {
-  color: #111;
+  color: #003f5a;
 }
 
 .services .description {
@@ -705,63 +707,22 @@ section {
   color: #fff;
 }
 
-
-/*--------------------------------------------------------------
-# Counts
---------------------------------------------------------------*/
-.counts {
-  padding-bottom: 30px;
+.service-list-group li {
+  list-style-type:circle;
 }
 
-.counts .count-box {
-  padding: 30px;
-  width: 100%;
+.bi-diamond-fill {
+  color: #DA8751;
+  font-size: x-small;
+  padding-right: .5rem;
 }
 
-.counts .count-box i {
-  display: block;
-  font-size: 44px;
-  color: #67b0d1;
-  float: left;
-  line-height: 0;
-}
-
-.counts .count-box span {
-  font-size: 48px;
-  line-height: 40px;
-  display: block;
-  font-weight: 700;
-  color: #2f4d5a;
-  margin-left: 60px;
-}
-
-.counts .count-box p {
-  padding: 15px 0 0 0;
-  margin: 0 0 0 60px;
-  font-family: "Raleway", sans-serif;
-  font-size: 14px;
-  color: #49788c;
-}
-
-.counts .count-box a {
-  font-weight: 600;
-  display: block;
-  margin-top: 20px;
-  color: #49788c;
-  font-size: 15px;
-  font-family: "Poppins", sans-serif;
-  transition: ease-in-out 0.3s;
-}
-
-.counts .count-box a:hover {
-  color: #6e9fb4;
-}
 
 /*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(103, 176, 209, 0.8), rgba(103, 176, 209, 0.8)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(#7289A6, rgba(103, 176, 209, 0.8)), url("../img/cta-bg.jpg") fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
@@ -787,8 +748,8 @@ section {
   border-radius: 25px;
   transition: 0.5s;
   margin-top: 10px;
-  border: 2px solid rgba(255, 255, 255, 0.5);
-  color: #fff;
+  border: 2px solid #DA8751;
+  color: #F2F2F2;
 }
 
 .cta .cta-btn:hover {
@@ -1014,7 +975,7 @@ section {
   position: relative;
   margin-bottom: 35px;
   border-radius: 6px;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 15px #7289A6;
 }
 
 .testimonials .testimonial-item p::after {
@@ -1052,6 +1013,9 @@ section {
 --------------------------------------------------------------*/
 .contact {
   padding-bottom: 80px;
+  /* background-image: url(./../img/Background4.jpg);
+  background-size: cover;
+  position: relative; */
 }
 
 .contact .info-box {
@@ -1069,6 +1033,17 @@ section {
   border-radius: 50%;
   padding: 8px;
   border: 2px dotted #f0f7fa;
+}
+
+.contact .info-box .bi-github {
+  color:#f1b763 ;
+}
+.contact .info-box .bi-instagram {
+  color: #003f5a;
+}
+
+.contact .info-box .bi-linkedin {
+  color: #da8751;
 }
 
 .contact .info-box h3 {
