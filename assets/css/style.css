@@ -185,20 +185,6 @@ h1, h2, h3, h4, h5, h6 {
   background-color:#E4D5CF;
 }
 
-/* .sidenav a {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 8px 16px;
-  margin-left: 10px;
-  font-family: "Raleway", sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  color: #fff;
-  white-space: nowrap;
-  transition: 0.3s;
-} */
-
 .sidenav a i {
   font-size: 12px;
   line-height: 0;
@@ -408,8 +394,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #003F5A;
   margin-bottom: 20px;
   font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
-  /* font-weight: 700; */
   text-shadow: -1px 0 2px #2f4d5a;
   margin-top: -50px;
 }
