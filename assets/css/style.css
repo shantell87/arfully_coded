@@ -157,7 +157,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
   align-self: center;
   letter-spacing: 1.5px;
-  padding: 25px 16px 6px 13px;
+  padding: 25px 0px 6px 13px;
   word-break: keep-all !important;
 }
 
@@ -255,6 +255,27 @@ h1, h2, h3, h4, h5, h6 {
   }
   .sidenav .dropdown .dropdown:hover > ul {
     left: -100%;
+  }
+}
+
+@media (max-width: 575px) {
+  #nav_li li {
+    padding: 25px 0px 6px 0px;
+  }
+  .sidenav {
+    width: 40px;
+  }
+  .sidenav ul {
+    margin-top: 55px;
+  }
+
+  .logo_icon .img-fluid {
+    height: 40px;
+    width: 40px;
+    margin-left: 0px;
+  }
+  .nav-link {
+    padding: .5rem 0rem;
   }
 }
 
@@ -480,6 +501,12 @@ section {
   margin-bottom: 0;
 }
 
+@media (max-width: 575px) {
+  .section-title p {
+    padding-left: 35px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
@@ -630,6 +657,12 @@ section {
   }
 }
 
+@media (max-width: 575px) {
+  #about-text {
+    margin-left: 40px;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Services
@@ -703,7 +736,13 @@ section {
 }
 
 .services {
-  height: 100vh;
+  height: 100%;
+}
+
+@media (max-width: 575px) {
+  #single {
+    padding: 0px 50px 0px 50px;
+  }
 }
 
 
@@ -1009,6 +1048,12 @@ section {
   background-color: #67b0d1;
 }
 
+@media (max-width: 575px) {
+  .testimonials {
+    padding-left: 20px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
@@ -1040,6 +1085,11 @@ section {
 
 .pricing .title a {
   color: #003f5a;
+}
+@media (max-width: 575px) {
+  #webdev {
+    padding: 0px 15px 0px 50px;
+  }
 }
 
 
