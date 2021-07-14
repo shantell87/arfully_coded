@@ -497,7 +497,7 @@ section {
   transform: translate(-50%, -50%);
   width: 122px;
   height: 66px;
-  background: url(../img/section-title-bg.png) no-repeat;
+  /* background: url(../img/section-title-bg.png) no-repeat; */
   z-index: -1;
 }
 
@@ -887,6 +887,14 @@ section {
 .portfolio .portfolio-wrap:hover .portfolio-links {
   opacity: 1;
   bottom: 0;
+}
+
+.portfolio #stefan {
+  color: #ffff;
+}
+
+.portfolio .card-title {
+  color: #003f5a;
 }
 
 /*--------------------------------------------------------------
