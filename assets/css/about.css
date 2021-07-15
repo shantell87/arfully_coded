@@ -1,0 +1,109 @@
+/*--------------------------------------------------------------
+# About/TEAM
+--------------------------------------------------------------*/
+/* .about {
+    background: url("../img/paper.png") center center no-repeat;
+    background-size: cover;
+    padding: 40px 10px;
+    position: relative;
+} */
+
+.about .member {
+    text-align: center;
+    /* margin-bottom: 80px; */
+    position: relative;
+}
+
+.about .member .pic {
+    overflow: hidden;
+}
+
+.about .member .member-info {
+    position: absolute;
+    top: 75%;
+    left: 20px;
+    right: 20px;
+    background: #fff;
+    padding: 20px 0;
+    color: #2f4d5a;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    max-height: 95px;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+}
+
+.about .member:hover .member-info {
+    max-height: 200px;
+}
+
+.about .member h4 {
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #2f4d5a;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.about .member h4::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 1px;
+    background: #b1cbd7;
+    bottom: 0;
+    left: calc(50% - 25px);
+}
+
+.about .member span {
+    font-style: italic;
+    display: block;
+    font-size: 13px;
+}
+
+.about .member .social {
+    margin-top: 15px;
+}
+
+.about .member .social a {
+    transition: color 0.3s;
+    color: #52869d;
+}
+
+.about .member .social a:hover {
+    color: #67b0d1;
+}
+
+.about .member .bi-github {
+    color:#f1b763 ;
+}
+
+.about .member .bi-instagram {
+    color: #003f5a;
+}
+
+.about .member .bi-linkedin {
+    color: #da8751;
+}
+
+.about .member .social i {
+    font-size: 25px;
+    margin: 0 2px;
+}
+
+/* .about #about2 {
+    float: right;
+  } */
+
+@media (max-width: 992px) {
+    .about .member {
+        margin-bottom: 110px;
+    }
+}
+
+@media (max-width: 575px) {
+    #about-text {
+        margin-left: 40px;
+    }
+}
