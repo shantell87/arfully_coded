@@ -100,6 +100,12 @@
     .about .member {
         margin-bottom: 110px;
     }
+    #about_text {
+        padding-left: 50px;
+    }
+    #single {
+        padding-left: 0px 50px;
+    }
 }
 
 @media (max-width: 575px) {
