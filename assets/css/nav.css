@@ -127,12 +127,13 @@
     visibility: visible;
 }
 
-@media (max-width: 1366px) {
-    .sidenav .dropdown .dropdown ul {
-    left: -90%;
-}
-    .sidenav .dropdown .dropdown:hover > ul {
-    left: -100%;
+@media (max-width: 1400px) {
+    #nav_li li {
+        padding: 10px 0px 6px 13px;
+        letter-spacing: .5px;
+    }
+    .sidenav a {
+        font-size: 20px;
     }
 }
 
@@ -158,6 +159,14 @@
     }
 }
 
+/* @media (max-width: 1366px) {
+    .sidenav .dropdown .dropdown ul {
+    left: -90%;
+}
+    .sidenav .dropdown .dropdown:hover > ul {
+    left: -100%;
+    }
+} */
 
 /**
   * Mobile Navigation 
@@ -258,4 +267,5 @@
 
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
-} */
+} 
+*/
