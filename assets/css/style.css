@@ -385,6 +385,9 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+#contact .info-box {
+  height: 100%;
+}
 .contact {
   padding-bottom: 80px;
   /* background-image: url(./../img/Background4.jpg);
