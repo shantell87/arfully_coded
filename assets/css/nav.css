@@ -173,6 +173,11 @@
     padding: 0.5rem 0rem;
     }
 }
+@media (max-width: 375px) {
+    .sidenav a {
+        font-size: 18px;
+    }
+}
 
 /* @media (max-width: 1366px) {
     .sidenav .dropdown .dropdown ul {
