@@ -173,7 +173,7 @@
     padding: 0.5rem 0rem;
     }
 }
-@media (max-width: 375px) {
+@media (min-width: 375px) {
     .sidenav a {
         font-size: 18px;
     }
