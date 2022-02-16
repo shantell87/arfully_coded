@@ -107,6 +107,7 @@
 
 .portfolio .card-title {
     color: #003f5a;
+    background: rgba(255, 255, 255, 0.7);
 }
 
 @media (max-width: 575px) {
