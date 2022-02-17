@@ -1,12 +1,9 @@
 /*--------------------------------------------------------------
 # About/TEAM
 --------------------------------------------------------------*/
-/* .about {
-    background: url("../img/paper.png") center center no-repeat;
-    background-size: cover;
-    padding: 40px 10px;
-    position: relative;
-} */
+.about {
+background: #e0e5e8;
+}
 
 .about .member {
     text-align: center;
