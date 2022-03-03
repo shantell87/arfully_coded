@@ -100,7 +100,7 @@ background: #e0e5e8;
     font-style: italic;
     background: #fff;
     border-radius: 6px;
-    box-shadow: 0px 2px 15px #7289A6;
+    box-shadow: 0px 2px 15px #e4d5cf;
     margin-left: 15px;
     max-width: 22rem;
 }
@@ -112,6 +112,10 @@ background: #e0e5e8;
 
 .desc-box h4 {
     color: #da8751;
+}
+
+#ac_description {
+    background: linear-gradient(#7289A6, rgba(103, 176, 209, 0.8));
 }
 
 /* .about #about2 {
