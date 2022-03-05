@@ -11,7 +11,7 @@
     z-index: 2;
     top: 0;
     left: 0;
-    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.664);
     overflow-x: hidden;
     padding-top: 30px;
 }
@@ -49,6 +49,7 @@
 .sidenav a {
     text-decoration: none;
     font-size: 20px;
+    font-weight: 600;
     color: #003f5a;
     display: block;
 }

@@ -197,6 +197,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #da8751;
 }
 
+#hero .btn-outline-secondary {
+  font-size: 36px;
+}
+
 #hero .btn-get-started:hover {
   padding-top: 8px;
   background: rgba(255, 255, 255, 0.15);
