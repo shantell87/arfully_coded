@@ -130,10 +130,24 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/design/desktop.png") center;
+  background: url("../img/design/desk.png") center;
   background-size: cover;
   position: relative;
-  margin-bottom: -80px;
+  margin-bottom: -70px;
+}
+
+.intro h3 {
+  position: absolute;
+  bottom: 0;
+  top: 100;
+  padding: 0 10px 0 35px;
+  text-align: center;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:bold;
+  background:#f2f2f2af;
+  color: #003f5a;
+  font-style: italic;
 }
 
 #hero .hero-container {
